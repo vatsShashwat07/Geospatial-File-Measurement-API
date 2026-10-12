@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Test Features</name>
+    <Placemark>
+      <name>Test Polygon</name>
+      <description>A polygon near New Delhi</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.2090,28.6139,0
+              77.2190,28.6139,0
+              77.2190,28.6239,0
+              77.2090,28.6239,0
+              77.2090,28.6139,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Test LineString</name>
+      <description>A road segment</description>
+      <LineString>
+        <coordinates>
+          77.2090,28.6139,0
+          77.2190,28.6239,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Test Point</name>
+      <description>A survey marker</description>
+      <Point>
+        <coordinates>77.2090,28.6139,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
